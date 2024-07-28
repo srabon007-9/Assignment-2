@@ -153,6 +153,35 @@ body{
     margin-top: 32px;
 }
 
+/* run-an-extra-mile section */
+.run-an-extra-mile{
+    margin-top: 32px;
+    padding: 0 15%;
+
+}
+.run-an-extra-mile > .container{
+    gap: 22px;
+    justify-content: space-between;
+    padding: 32px;
+    background-color: #222222;
+    border-radius: 12px;
+
+}
+.run-an-extra-mile > .container > .left{
+    text-align: center;
+    width: 40%;
+    
+}
+.left > h2, .left > p, .left > button{
+    margin: 10px;
+}
+
+.left > button{
+    padding: 10px 32px;
+}
+.right > img{
+    border-radius: 12px;
+}
 
 /* Media Query */
 

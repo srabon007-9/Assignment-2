@@ -183,6 +183,32 @@ body{
     border-radius: 12px;
     width: 32vw;
 }
+/* Right box buttons*/
+.box1, .box2{
+  height: 70px;
+  width: 160px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: calc(12px + 0.5vw);
+  overflow: hidden;
+  
+}
+.box1{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+.box2{
+    position: absolute;
+    top: 55%;
+    right: 40%;
+}
+
+
 /* BMI calculator */
 .bmi-heading{
     display: flex;
@@ -344,5 +370,15 @@ body{
         display: block;
         padding: 2rem 17%;
     }
-    
+
+    .box1{
+        position: absolute;
+        top: 70%;
+        right: 10%;
+    }
+    .box2{
+        position: absolute;
+        top: 85%;
+        right: 60%;
+    }
 }
